@@ -1,0 +1,16 @@
+FERMEL — INSTALLATION SUPABASE
+
+1. Créer un projet sur Supabase.
+2. Ouvrir SQL Editor.
+3. Coller supabase/schema.sql et exécuter.
+4. Authentication > Providers > Email : activer Email/Password.
+5. Copier public/supabase-config.example.js -> public/supabase-config.js.
+6. Renseigner l'URL Supabase et la clé publishable.
+7. Tester inscription + confirmation e-mail + connexion.
+8. Ne jamais mettre une service_role key dans public/.
+9. Pour Netlify, ajouter les secrets backend dans Environment variables.
+
+IMPORTANT
+- 200 FCFA de parrainage = crédit BOOST uniquement.
+- Ne pas modifier le solde/boost directement depuis le navigateur.
+- Le RPC use_boost effectue la consommation côté PostgreSQL.
