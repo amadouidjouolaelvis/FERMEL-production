@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FERMEL | Boutique sociale</title>
+  <meta name="description" content="FERMEL — boutique sociale du Bénin" />
+  <style>
+    :root {
+      --bg: #0b0d12;
+      --panel: #141922;
+      --muted: #9da7b3;
+      --brand: #7c5cff;
+      --brand2: #00d9ff;
+      --text: #edf3ff;
+      --line: rgba(255,255,255,0.08);
+      --success: #1ecb8f;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: radial-gradient(circle at top, #171b2b, var(--bg) 55%);
+      color: var(--text);
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+    }
+    .card {
+      width: min(760px, 92vw);
+      background: rgba(20, 25, 34, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      box-shadow: 0 30px 80px rgba(0,0,0,0.45);
+      padding: 36px 28px;
+      text-align: center;
+    }
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 60px;
+      height: 60px;
+      border-radius: 18px;
+      font-weight: 800;
+      background: linear-gradient(135deg, var(--brand), var(--brand2));
+      color: #fff;
+      font-size: 1.6rem;
+      margin-bottom: 18px;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      letter-spacing: 0.05em;
+      background: linear-gradient(90deg, #ff5fa2, #7c5cff, #00d9ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    p {
+      color: var(--muted);
+      line-height: 1.7;
+      margin: 18px auto 0;
+      max-width: 620px;
+      font-size: 1rem;
+    }
+    .status {
+      margin-top: 26px;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(30, 203, 143, 0.12);
+      border: 1px solid rgba(30, 203, 143, 0.3);
+      color: #9cebc1;
+      padding: 10px 16px;
+      border-radius: 999px;
+      font-size: 0.92rem;
+      font-weight: 700;
+    }
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--success);
+      box-shadow: 0 0 12px rgba(30, 203, 143, 0.9);
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="logo">F</div>
+    <h1>FERMEL</h1>
+    <p>
+      Boutique sociale du Bénin — prêt pour la configuration Supabase, les paiements FedaPay et le déploiement Netlify.
+      Cette page placeholder confirme que le dépôt est bien publié sur GitHub et prêt à être branché à la configuration production.
+    </p>
+    <div class="status"><span class="dot"></span> Déploiement GitHub prêt</div>
+  </main>
+</body>
+</html>
