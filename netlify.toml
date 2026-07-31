@@ -1,0 +1,7 @@
+[build]
+  publish = "public"
+
+[functions]
+  directory = "netlify/functions"
+
+# Les secrets sont à définir dans Netlify > Site configuration > Environment variables.
